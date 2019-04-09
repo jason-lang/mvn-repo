@@ -4,7 +4,14 @@ Using gradle:
 
 ```
 repositories {
+   mavenCentral()
+   jcenter()
+   google()
+
+   maven { url "https://raw.github.com/rosjava/rosjava_mvn_repo/master" }
+
    maven { url "https://raw.github.com/jason-lang/mvn-repo/master" }
+   maven { url "http://jacamo.sourceforge.net/maven2" }
 }
 
 dependencies {
