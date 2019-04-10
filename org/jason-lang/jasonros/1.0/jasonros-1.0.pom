@@ -20,8 +20,14 @@
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
-      <artifactId>geometry_msgs</artifactId>
-      <version>[1.12,1.13)</version>
+      <artifactId>std_msgs</artifactId>
+      <version>[0.5,0.6)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_bootstrap</groupId>
+      <artifactId>message_generation</artifactId>
+      <version>[0.3,0.4)</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -34,12 +40,6 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>com.springsource.org.apache.commons.logging</artifactId>
       <version>1.1.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.ros.rosjava_bootstrap</groupId>
-      <artifactId>message_generation</artifactId>
-      <version>[0.3,0.4)</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
