@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jason-lang",
+    "module": "jason_active_perception",
+    "version": "1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "ceda6fp2cnfx3msvlfhnxs5tba"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason-lang",
+          "module": "jason",
+          "version": {
+            "requires": "2.5-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason_active_perception-1.4.jar",
+          "url": "jason_active_perception-1.4.jar",
+          "size": 16424,
+          "sha512": "5b4337e0c4bdc6939693ec7a281e7baa6405d7b35e156aeaf4e89b75bb10123771a20d3f4392d98e94848debaaf568aa48b8fbf20cc8886b8d01423dee4d9699",
+          "sha256": "41d823f6a5ccfd963b16e4f3df50fdd17fdf529ae3d7283bb515c69cb75c4286",
+          "sha1": "458b217d7ef4e5ea2c133a2743f64bbf30593d09",
+          "md5": "bb44ba7e2f2d3aa9016db1d006c33c9c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason-lang",
+          "module": "jason",
+          "version": {
+            "requires": "2.5-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason_active_perception-1.4.jar",
+          "url": "jason_active_perception-1.4.jar",
+          "size": 16424,
+          "sha512": "5b4337e0c4bdc6939693ec7a281e7baa6405d7b35e156aeaf4e89b75bb10123771a20d3f4392d98e94848debaaf568aa48b8fbf20cc8886b8d01423dee4d9699",
+          "sha256": "41d823f6a5ccfd963b16e4f3df50fdd17fdf529ae3d7283bb515c69cb75c4286",
+          "sha1": "458b217d7ef4e5ea2c133a2743f64bbf30593d09",
+          "md5": "bb44ba7e2f2d3aa9016db1d006c33c9c"
+        }
+      ]
+    }
+  ]
+}
